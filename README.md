@@ -7,7 +7,7 @@ This is a **React + TypeScript** front-end for the AWS Billing Microservices pro
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, CSS
-- **Backend:** AWS Lambda, API Gateway, DynamoDB, SNS, SQS (for reference)
+- **Backend:** AWS Lambda, API Gateway, DynamoDB, SNS, SQS
 - **Other:** Docker, GitHub Actions
 
 ---
