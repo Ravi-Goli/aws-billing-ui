@@ -1,5 +1,7 @@
 # AWS Billing Microservices UI
 
+[![NodeJS with Grunt](https://github.com/Ravi-Goli/aws-billing-ui/actions/workflows/npm-grunt.yml/badge.svg)](https://github.com/Ravi-Goli/aws-billing-ui/actions/workflows/npm-grunt.yml)
+
 This is a **React + TypeScript** front-end for the AWS Billing Microservices project. It displays the tech stack, description, and key highlights of the billing microservices architecture.
 
 ---
