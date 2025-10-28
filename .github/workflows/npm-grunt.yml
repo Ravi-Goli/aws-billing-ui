@@ -8,16 +8,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latestname: NodeJS with Grunt
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build:
     runs-on: ubuntu-latest
 
     strategy:
@@ -37,21 +27,3 @@ jobs:
 
       - name: Build with Grunt
         run: npx grunt
-
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Build
-      run: |
-        npm install
-        grunt
